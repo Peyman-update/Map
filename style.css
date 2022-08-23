@@ -1,0 +1,23 @@
+
+.map1{
+    transition: all 3ms ease-in-out;
+    opacity: .5px;
+}
+
+.map1:hover{
+    color: aqua;
+    background-color: blue;
+   
+
+    font-size: 100px;
+    padding: 10px 20px;
+}
+
+@media screen and ( max-width: 780px ) {
+    
+    img {
+        width: 400px;
+       
+    }
+
+}
